@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+.navbar {
+    background-color: rgb(32, 178, 49);
+    /*border: 2px solid red;*/
+}
+
+.nav-item .nav-link {
+    color: white !important;
+
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*home page*/
+.bgimg {
+    background-image: url('https://img.freepik.com/free-vector/pretty-realistic-banners-pizza_23-2147565088.jpg?t=st=1717861506~exp=1717865106~hmac=0fe596995b822f228746cd6e43bbd52ccf2f11c1c4b3b91d7bffa85f65e0900b&w=740');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.head1 {
+    font-weight: bold;
+    color: white;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+
+.one {
+    width: 30%;
+    font-size: 20px;
+
+}
+
+.para {
+    margin-top: -1%;
+    margin-left: 5%;
+    color: aqua;
+}
+
+.head2 {
+    color: green;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.imageries {
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+}
+
+/*products*/
+.card-img-top {
+
+    aspect-ratio: 3/2;
+    object-fit: cover;
+}
+
+.card-title {
+    color: #a20721;
+    font-size: 20px;
+}
+
+.card-group {
+    margin-bottom: 3%;
+}
+
+.three {
+    border: 1px solid green;
+    color: #a20721;
+    font-size: 15px;
+}
+
+/*payment*/
+.zero {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    font-size: 25px;
+    width: 40%;
+}
+
+.hi {
+    margin-top: 2%;
+}
+
+
+.fa-cc-mastercard {
+    background-color: #797b7c;
+    font-size: 20px;
+}
+
+.formy {
+    background-color: lightseagreen;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+    box-shadow: 1px 3px 3px lightgreen;
+    padding: 2%;
+    margin-top: 10px;
+    margin-bottom: 1%;
+}
+
+@media screen and (max-width:768px) {
+    .adjust {
+        margin-top: -5%;
+    }
+}
+
+@media screen and (min-width:769px) {
+    .adjust {
+        margin-top: 5%;
+    }
+}
+
+/*payment section end*/
+
+/*contact us section */
+.input-group-text {
+    background-color: rgb(18, 110, 38);
+    color: white;
+    font-size: 20px;
+}
+
+.formy1 {
+    background-color: cornflowerblue;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+    box-shadow: 1px 2px 2px lightgreen;
+    padding: 2%;
+    margin-top: 2px;
+    margin-bottom: 1%;
+}
+
+
+.fa-address-book {
+    background-color: green;
+    font-size: 20px;
+}
+
+/*footer section*/
+.bgimg5 {
+    background-color: skyblue;
+}
+
+.bgimg4 {
+    background-color: crimson;
+}
+
+.ftext {
+    color: white;
+    text-decoration: underline yellow;
+    font-size: 45px;
+}
+
+.last li {
+    color: white;
+
+    font-weight: lighter;
+}
+
+.fa-linkedin {
+    font-size: 30px;
+    padding-left: 2%;
+    color: #1d60a8;
+}
+
+.fa-youtube {
+    font-size: 30px;
+    padding-left: 2%;
+    color: red;
+}
+
+.fa-facebook {
+    font-size: 30px;
+    padding-left: 2%;
+    color: white;
+}
+
+.fa-square-snapchat {
+    font-size: 30px;
+    padding-left: 2%;
+    color: yellow;
+}
+
+.fa-square-instagram {
+    font-size: 30px;
+    padding-left: 2%;
+    color: #e62d89;
+}
+
+/*arrow*/
+.fa-arrow-up {
+    color: green;
+    font-size: 30px;
+    border: 1px solid gold;
+    background: gold;
+    float: right;
+    margin-top: -4%;
+    margin-right: 6%;
+}

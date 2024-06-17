@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivey Website</title>
+    <!--bootstrap link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--fontawesome link-->
+    <script src="https://kit.fontawesome.com/0b403d2455.js" crossorigin="anonymous"></script>
+    <!--external css-->
+    <link rel="stylesheet" href="./index.css" />
+    <!--favicon-->
+    <link rel="icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJwk6jgr_N5mOnQxI0hCKomK2Z2bUubGD5ag&s" />
+
+
+</head>
+
+<body>
+    <!--nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJwk6jgr_N5mOnQxI0hCKomK2Z2bUubGD5ag&s"
+                    width=25% /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house"></i>
+                            Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about"><i class="fa-solid fa-address-card"></i> About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu"> <i class="fa-solid fa-bars"></i> Menu</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#payment" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-cart-shopping"></i> Payment
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#payment">Online Payment</a></li>
+                            <li><a class="dropdown-item" href="#payment">Offline Payment</a></li>
+
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true"><i
+                                class="fa-solid fa-phone"></i> Contact</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-warning" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!--home page-->
+    <section class="bgimg" id="home" style="margin-top: 4%;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mt-4">
+                    <h1 class="head1">PIZZA DELIVERY</h1>
+                    <p class="para">Explore different variety of pizza's and various food products</p>
+                    <button class="btn btn-success one">Best Deal <i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--about page-->
+
+    <section id="about">
+        <div class="container">
+            <h1 class="head2 text-center">ABOUT</h1>
+            <p class="style" :bold><b>Food delivery is a courier service in which a restaurant, store, or independent
+                    food-delivery company delivers food to a customer. An order is typically made either by telephone,
+                    through the supplier's website or mobile app, or through a third party food ordering service. The
+                    delivered items can include entrees, sides, drinks, desserts, or grocery items and are typically
+                    delivered in boxes or bags. The delivery person will normally drive a car, but in bigger cities
+                    where
+                    homes and restaurants are closer together, they may use bikes or motorized scooters.</b>
+
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aliquam in quasi ad quibusdam veritatis
+                facere architecto inventore magni natus sequi id consequatur libero, minima ducimus cumque quam optio
+                consectetur? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui culpa, exercitationem
+                asperiores sit soluta laudantium? Et quisquam natus ea dignissimos aliquid sequi aperiam. Ex doloremque
+                minima reprehenderit. Aliquam, non adipisci.</p>
+            <div class="row d-flex flex-row justify-content-center">
+                <div class="col-12 w-50 mb-5">
+
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://img.freepik.com/free-photo/mixed-pizza-with-various-ingridients_140725-3790.jpg?t=st=1718025766~exp=1718029366~hmac=c3567621470c5d98682d7d1209c71fd1ebf0851122a59de9bc7fbb70450731a6&w=996"
+                                    class="d-block w-100 imageries" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg?t=st=1718018040~exp=1718021640~hmac=f4dc5b62ecdcd97c700a190f90659cfbc872004f193b3ef570f89989f9f01a06&w=1060"
+                                    class="d-block w-100 imageries" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://img.freepik.com/free-photo/crispy-french-fries-with-ketchup-mayonnaise_1150-26588.jpg?t=st=1718024404~exp=1718028004~hmac=85a640c18ed69aceef5944ff292a7de0f792cb327471c4df48348a80a16b1d8d&w=996"
+                                    class="d-block w-100 imageries" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--products-->
+
+
+    <div class="row d-flex flex-row justify-content-center" id="menu">
+        <h1 class="head2 text-center">MENU</h1>
+        <div class="card-group">
+
+            <div class="card">
+
+                <img src="https://img.freepik.com/premium-psd/food-made-from-dough-cheese-various-toppings_176841-48295.jpg?w=740"
+                    class="card-img-top w-100" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Paneer Pizza</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <center><button class="three"> Shop More <i class="fa-solid fa-cart-shopping"></i></button></center>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://img.freepik.com/premium-photo/french-fries-potato-chips-with-sour-cream-ketchup_1339-135558.jpg?w=996"
+                    class="card-img-top w-100" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">French Fries</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                        content.
+                    </p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <center><button class="three"> Shop More <i class="fa-solid fa-cart-shopping"></i></button></center>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://img.freepik.com/free-psd/mayonnaise-isolated-transparent-background_191095-35025.jpg?t=st=1718027519~exp=1718031119~hmac=e0e978d0ad8f337dfa04f17ba0f6b03d3a354d97015e5fe377d7a0781a06bd4f&w=740"
+                    class="card-img-top w-100" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Burger</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This card has even longer content than the first to show that equal
+                        height
+                        action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <center><button class="three"> Shop More <i class="fa-solid fa-cart-shopping"></i></button></center>
+                </div>
+            </div>
+
+            <div class="card-group">
+
+                <div class="card">
+
+                    <img src="https://img.freepik.com/free-photo/homemade-tasty-bread-with-garlic-cheese-herbs-kitchen-table_1150-47126.jpg?t=st=1717862669~exp=1717866269~hmac=8848b15b3a9867efbcf08f15b986c2ad852fcc04962b4722ae8ba9db288ecc7b&w=996"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <b>
+                            <h5 class="card-title text-center">Garlic Bread</h5>
+                        </b>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <center><button class="three"> Shop More <i class="fa-solid fa-cart-shopping"></i></button>
+                        </center>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19739.jpg?t=st=1717862775~exp=1717866375~hmac=3f2be57090a382786149e2927dde4b8a4826e5a3f72331230937d082ff9cf93b&w=996"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <b>
+                            <h5 class="card-title text-center">Pasta</h5>
+                        </b>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.
+                        </p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <center><button class="three"> Shop More <i class="fa-solid fa-cart-shopping"></i></button>
+                        </center>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://img.freepik.com/premium-psd/strawberry-chocolate-white-milkshakes-transparent-background_410516-118007.jpg?w=740"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <b>
+                            <h5 class="card-title text-center">Cool Drinks</h5>
+                        </b>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This card has even longer content than the first to show that equal
+                            height
+                            action.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <center><button class="three"> Shop More <i class="fa-solid fa-cart-shopping"></i></button>
+                        </center>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!--payment section-->
+        <section id="payment">
+            <div class="container">
+                <div class="row">
+                    <h1 class="head2 text-center">Payment</h1>
+                    <div class="col-12 col-md-7 mt-4 order-2 order-md-1 adjust" style="margin-top:-4%;">
+                        <form class="formy">
+                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                placeholder="eg:Suresh"><br />
+                            <input type="date" class="form-control" id="exampleFormControlInput1"
+                                placeholder="04/06/2024" /><br />
+                            <input type="number" class="form-control" id="exampleFormControlInput1"
+                                placeholder="eg:123"><br />
+                            <input type="number" class="form-control" id="exampleFormControlInput1"
+                                placeholder="eg:999$"><br />
+                            <center><button class="btn zero">Payment<i class="fa-brands fa-cc-mastercard"></i></button>
+                            </center>
+
+                        </form>
+                    </div>
+                    <div class="col-12 col-md-5 order-1 order-md-2">
+                        <img src="https://i.pinimg.com/originals/27/58/39/275839aac26b0a358f253ec032eaca64.gif"
+                            class="hi" width="70%" />
+                    </div>
+
+
+
+                </div>
+
+
+        </section>
+
+        <!--contact section-->
+        <section id="contact">
+            <div class="container">
+
+                <div class="row">
+
+                    <h1 class="head2 text-center">CONTACT</h1>
+                    <div class="col-12 col-md-7 mt-6">
+
+                        <form class="formy1">
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                placeholder="eg:suresh@gmail.com"><br />
+                            <input type="text" class="form-control" id="exampleInputEmail1"
+                                placeholder="eg:9876543210"><br />
+                            <div class="input-group">
+                                <span class="input-group-text">Comments</span>
+                                <textarea class="form-control" aria-label="With textarea"></textarea>
+                            </div><br />
+                            <center><button class="btn zero text-center"> Contact Us <i
+                                        class="fa-regular fa-address-book"></i></button></center>
+
+                        </form>
+                    </div>
+
+
+
+                    <div class="col-12 col-md-5">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.402723155653!2d80.644660774914!3d16.505754084238795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35fb51a430ffad%3A0xe6ed5ede725b304b!2sCodegnan%20IT%20Solutions%3A%20Your%20Best%20Training%20Institute%20for%20Software%20Courses!5e0!3m2!1sen!2sin!4v1717390060929!5m2!1sen!2sin"
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+
+
+
+        <!--footer section-->
+        <section>
+            <div class="bgimg4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-center">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJwk6jgr_N5mOnQxI0hCKomK2Z2bUubGD5ag&s"
+                                width="10%" /><br /><br />
+                        </div>
+
+                    </div>
+
+                    <div class="row d-flex flex-row">
+                        <div class="col-12 col-md-3">
+                            <ul class="last" style="list-style-type:none;">
+                                <li>ContactUs</li>
+                                <li>Terms</li>
+                                <li>Conditions.</li>
+                                <li>Policies</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-12 col-md-3">
+                            <ul class="last" style="list-style-type:none;">
+                                <li>ContactUs</li>
+                                <li>Terms</li>
+                                <li>Conditions</li>
+                                <li>Policies</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-12 col-md-3">
+                            <ul class="last" style="list-style-type:none;">
+                                <li>ContactUs</li>
+                                <li>Terms</li>
+                                <li>Conditions</li>
+                                <li>Policies</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-12 col-md-3">
+                            <ul class="last" style="list-style-type:none;">
+                                <li>ContactUs</li>
+                                <li>Terms</li>
+                                <li>Conditions</li>
+                                <li>Policies</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row pb-3">
+                        <div class="col-12 d-flex flex-row justify-content-center">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-square-snapchat"></i>
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--bootstrap script bundles-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
